@@ -1,0 +1,15 @@
+[23:25:98] [main/INFO]: ModLauncher running: args [--username, HYODOO, --version, ONEPIECEEEEEEE, --gameDir, C:\Users\MyPC\AppData\Roaming\.minecraft\versions\ONEPIECEEEEEEE, --assetsDir, C:\Users\MyPC\AppData\Roaming\.minecraft\assets, --assetIndex, 1.15, --uuid, e15156f2474b486cb7a8c4a2d255c499, --accessToken, вќ„вќ„вќ„вќ„вќ„вќ„вќ„вќ„, --userType, mojang, --versionType, release, --width, 1920, --height, 1080, --launchTarget, fmlclient, --fml.forgeVersion, 31.2.57, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20200515.085601, --fullscreen]
+[23:25:99] [main/INFO]: ModLauncher 5.1.2+70+master.2845bb9 starting: java version 1.8.0_51 by Oracle Corporation
+[23:25:42] [main/INFO]: Added Lets Encrypt root certificates as additional trust
+[23:25:46] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.2 Source=file:/C:/Users/MyPC/AppData/Roaming/.minecraft/libraries/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar Service=ModLauncher Env=CLIENT
+[23:25:55] [main/INFO]: [org.lwjgl.system.Library:checkHash:469]: [LWJGL] [ERROR] Incompatible Java and native library versions detected.
+Possible reasons:
+	a) -Djava.library.path is set to a folder containing shared libraries of an older LWJGL version.
+	b) The classpath contains jar files of an older LWJGL version.
+Possible solutions:
+	a) Make sure to not set -Djava.library.path (it is not needed for developing with LWJGL 3) or make
+	   sure the folder it points to contains the shared libraries of the correct LWJGL version.
+	b) Check the classpath and make sure to only have jar files of the same LWJGL version in it.
+Exception in thread "main"   <log4j:Event logger="STDERR" timestamp="1699827949586" level="INFO" thread="main">
+    <log4j:Message><![CDATA[[java.lang.ThreadGroup:uncaughtException:1052]: java.lang.UnsatisfiedLinkError: org.lwjgl.system.Callback.getNativeCallbacks([Ljava/lang/reflect/Method;J)J]]></log4j:Message>
+  </log4j:Event>
